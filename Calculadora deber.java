@@ -12,7 +12,7 @@ public class Calculadora {
             IO.println("===Calculadora===");
             IO.println("====================");
             IO.println("=====1. SUMA=====");
-            IO.println("2. Resta");
+            IO.println("=====2. RESTA=====");
             IO.println("3. Multiplicación");
             IO.println("4. División");
             IO.println("5. Salir");
