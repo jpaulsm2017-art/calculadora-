@@ -11,7 +11,7 @@ public class Calculadora {
             IO.println("====================");
             IO.println("===Calculadora===");
             IO.println("====================");
-            IO.println("1. Suma");
+            IO.println("=====1. SUMA=====");
             IO.println("2. Resta");
             IO.println("3. Multiplicación");
             IO.println("4. División");
