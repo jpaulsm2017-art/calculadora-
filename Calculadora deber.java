@@ -1,3 +1,6 @@
+/**
+ * Calculadora
+ */
 public class Calculadora {
 
     public static void main(String[] args) {
@@ -11,15 +14,15 @@ public class Calculadora {
             IO.println("====================");
             IO.println("===Calculadora===");
             IO.println("====================");
-            IO.println("=====1. SUMA=====");
-            IO.println("=====2. RESTA=====");
-            IO.println("=====3. Multiplicación=====");
-            IO.println("4. División");
-            IO.println("5. Salir");
+            IO.println("====1. SUMA====");
+            IO.println("====2. RESTA====");
+            IO.println("====3. MULTIPLICACION====");
+            IO.println("====4. DIVISION====");
+            IO.println("====5. Salir====");
 
             while (opcionValida == false) {
                 try {
-                    seleccionador = Integer.parseInt(IO.readln("Seleccione su opción: "));
+                    seleccionador = Integer.parseInt(IO.readln("SELECCIONE SU OPCION: "));
                     opcionValida = true;
                 } catch (NumberFormatException error) {
                     IO.println("Error: debe ingresar un número entero válido.");
@@ -31,7 +34,7 @@ public class Calculadora {
                 IO.println("Gracias por usar la calculadora. Hasta luego!");
 
             } else if (seleccionador >= 1 && seleccionador <= 4) {
- 
+
                 boolean numerosValidos = false;
                 while (numerosValidos == false) {
                     try {
